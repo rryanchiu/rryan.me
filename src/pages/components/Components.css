@@ -1,0 +1,28 @@
+.iconButton {
+    border-radius: 1px;
+}
+
+.button {
+    margin-right: 12px;
+}
+.full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.title {
+    padding: 5px 0;
+    flex: 1 1 0%;
+}
+
+.suffix-button {
+    padding: 5px;
+    position: absolute;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
