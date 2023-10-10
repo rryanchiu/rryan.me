@@ -9,7 +9,7 @@ export default () => {
             class: 'hover:bg-gray-700 dark:hover:bg-white dark:hover:text-gray-900'
         }, {
             text: 'Blog',
-            link: 'https://blog.rryan.me',
+            link: 'https://notes.rryan.me',
             icon: 'ri-book-2-line',
             class: 'hover:bg-gray-700 dark:hover:bg-white dark:hover:text-gray-900'
         }, {
@@ -28,7 +28,7 @@ export default () => {
         window.open(link, '_blank')
     }
     return (
-        <>
+        <div className="mt-1">
             {list.map((item, index) => (
                 <button style={{border: "none"}} key={index}
                         onClick={() => openLink(item.link)}
@@ -37,6 +37,6 @@ export default () => {
                     {item.text}
                 </button>
             ))}
-        </>
+        </div>
     )
 }

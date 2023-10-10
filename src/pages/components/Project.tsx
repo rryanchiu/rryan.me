@@ -7,13 +7,13 @@ export default () => {
     }
     return (
         <>
-            <h2 className="flex full">
+            <h2 className="flex ">
                 <span className="title">Projects</span>
                 <div
                     onClick={openLink}
                     className="op-50 ml-2 hover:op-100 transition-opacity cursor-pointer"
                 >
-                    <i className="suffix-button ri-arrow-right-up-line"></i>
+                    <div className="ri-arrow-right-up-line text-3xl" ></div>
                 </div>
             </h2>
         </>

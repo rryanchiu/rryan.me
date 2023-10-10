@@ -8,7 +8,8 @@ import './Index.css'
 
 const Index = () => {
     return (
-        <main className="py-[8vh] max-w-[80ch] mx-auto dark:prose-invert">
+        // <main className="py-[8vh] max-w-[80ch] mx-auto dark:prose-invert">
+        <main className="px-6 py-[8vh] max-w-[76ch] mx-auto  dark:prose-invert">
             <Hello/>
             <SocialMedias/>
             <Skills/>

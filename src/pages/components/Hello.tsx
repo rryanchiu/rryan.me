@@ -17,7 +17,6 @@ const Hello = () => {
                 repeat={0}
                 style={{
                     minHeight: '200px',
-                    marginTop: '20px',
                     fontWeight: 'bold',
                     fontSize: '2em',
                     whiteSpace: 'pre-line',
