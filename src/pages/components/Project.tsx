@@ -27,7 +27,7 @@ export default () => {
                     <div key={index} className={'rd-2 p-3 bg-[#f8f8f8] flex color-gray-8 gap-4 cursor-pointer hover:bg-dark-2 hover:color-gray-1'} onClick={() => {
                         window.open(item.url)
                     }}>
-                        <img src="/public/dalton.svg" alt="" className={'w-10'}/>
+                        <img src="/dalton.svg" alt="" className={'w-10'}/>
 
                         <div className={' grid '}>
                             <span className={'font-700'}>  {item.name}</span>
