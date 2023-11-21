@@ -8,7 +8,7 @@ export default () => {
     const projects = [{
         name: 'Smart Dalton💬',
         icon: 'A simple web UI for ChatGPT',
-        url: 'https://chatgpt.ililili.me/',
+        url: 'https://chatgpt.rryan.me/',
         description: 'A simple web UI for ChatGPT',
     }]
     return (
