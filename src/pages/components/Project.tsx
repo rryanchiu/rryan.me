@@ -7,10 +7,16 @@ export default () => {
 
     const projects = [{
         name: 'Smart Dalton💬',
-        icon: 'A simple web UI for ChatGPT',
+        icon: '/dalton.svg',
         url: 'https://chatgpt.rryan.me/',
         description: 'A simple web UI for ChatGPT',
+    },{
+        name: 'TinyURL🌏',
+        icon: 'tinyurl.ico',
+        url: 'https://tinyurl.rryan.me/',
+        description: 'Convert long URLs into shorter.',
     }]
+
     return (
         <>
             <h2 className="flex ">
@@ -27,7 +33,7 @@ export default () => {
                     <div key={index} className={'rd-2 p-3 bg-[#f8f8f8] dark:bg-gray-50/10 dark:color-gray-1 flex color-gray-8 gap-4 cursor-pointer hover:bg-dark-2 hover:color-gray-1'} onClick={() => {
                         window.open(item.url)
                     }}>
-                        <img src="/dalton.svg" alt="" className={'w-10'}/>
+                        <img src={item.icon} alt="" className={'w-10'}/>
 
                         <div className={' grid '}>
                             <span className={'font-700'}>  {item.name}</span>
