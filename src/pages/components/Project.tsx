@@ -15,6 +15,11 @@ export default () => {
         icon: 'tinyurl.ico',
         url: 'https://tinyurl.rryan.me/',
         description: 'Convert long URLs into shorter.',
+    },{
+        name: 'WordList📖 ',
+        icon: 'tinyurl.ico',
+        url: 'https://wordlist.rryan.me/',
+        description: 'A WebUI for creating wordbooks for the ‘WordList’ app, a language learning app focused on vocabulary building.',
     }]
 
     return (

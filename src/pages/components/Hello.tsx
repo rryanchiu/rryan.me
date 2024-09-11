@@ -6,7 +6,8 @@ const Hello = () => {
         'Hi👋👋\n' +
         'I\'m Ryan\n' +
         'Full Stack Developer\n' +
-        'Currently working at ly.com'
+        'Currently exploring new opportunities' +
+        'and working on personal projects.'
     ]
     return (
         <>
