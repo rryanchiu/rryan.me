@@ -2,11 +2,11 @@ import {TypeAnimation} from 'react-type-animation';
 
 const Hello = () => {
     const MySequence = [
-        200,
+        240,
         'Hi👋👋\n' +
         'I\'m Ryan\n' +
         'Full Stack Developer\n' +
-        'Currently exploring new opportunities' +
+        'Currently exploring new opportunities\n' +
         'and working on personal projects.'
     ]
     return (
@@ -17,7 +17,7 @@ const Hello = () => {
                 cursor={true}
                 repeat={0}
                 style={{
-                    minHeight: '200px',
+                    minHeight: '240px',
                     fontWeight: 'bold',
                     fontSize: '2em',
                     whiteSpace: 'pre-line',
