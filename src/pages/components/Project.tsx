@@ -19,7 +19,7 @@ export default () => {
         name: 'WordList📖 ',
         icon: 'tinyurl.ico',
         url: 'https://wordlist.rryan.me/',
-        description: 'A WebUI for creating wordbooks for the ‘WordList’ app, a language learning app focused on vocabulary building.',
+        description: 'A WebUI  creating wordbooks for a language learning app focused on vocabulary building.',
     }]
 
     return (
