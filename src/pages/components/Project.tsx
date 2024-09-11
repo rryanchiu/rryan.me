@@ -19,7 +19,7 @@ export default () => {
         name: 'WordList📖 ',
         icon: 'tinyurl.ico',
         url: 'https://wordlist.rryan.me/',
-        description: 'A WebUI  creating wordbooks for a language learning app focused on vocabulary building.',
+        description: 'A WebUI creating wordbooks for a language learning app focused on vocabulary building.',
     }]
 
     return (
@@ -38,7 +38,7 @@ export default () => {
                     <div key={index} className={'rd-2 p-3 bg-[#f8f8f8] dark:bg-gray-50/10 dark:color-gray-1 flex color-gray-8 gap-4 cursor-pointer hover:bg-dark-2 hover:color-gray-1'} onClick={() => {
                         window.open(item.url)
                     }}>
-                        <img src={item.icon} alt="" className={'w-10'}/>
+                        <img src={item.icon} alt="" className={'w-10 h-10'}/>
 
                         <div className={' grid '}>
                             <span className={'font-700'}>  {item.name}</span>
